@@ -1,4 +1,10 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
+	height:100%;
 	color: #AAAAAA;
 	font-family: Lato;
 	padding: 0;
@@ -116,11 +122,11 @@ b {
 }
 
 #education {
-	height: 60%;
+	height: 40%;
 }
 
 #work {
-	height: 90%;
+	height: 50%;
 }
 
 #more {
