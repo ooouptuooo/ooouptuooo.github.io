@@ -1,7 +1,112 @@
 <!doctype html>
-<html>
-<body>
-I am Margaret.
-</body>
-</html>
 
+<html>
+	<head>
+		<title>Margaret Tu</title>
+		<link href=http://fonts.googleapis.com/css?family=Lato:400,700 rel=stylesheet type=text/css>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+
+	<body>
+		<div
+			class="parallax-image-wrapper parallax-image-wrapper-100"
+			data-anchor-target="#header + .gap"
+			data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+			<div
+				class="parallax-image parallax-image-100"
+				style="background-image:url(images/whole-body.jpg)"
+				data-anchor-target="#header + .gap"
+				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+			></div>
+			<!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+		</div>
+
+		<div
+			class="parallax-image-wrapper parallax-image-wrapper-100"
+			data-anchor-target="#education + .gap"
+			data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+			<div
+				class="parallax-image parallax-image-100"
+				style="background-image:url(images/agogo.png)"
+				data-anchor-target="#education + .gap"
+				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+			></div>
+		</div>
+
+		<div
+			class="parallax-image-wrapper parallax-image-wrapper-100"
+			data-anchor-target="#work + .gap"
+			data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+			<div
+				class="parallax-image parallax-image-100"
+				style="background-image:url(images/big-face.jpg)"
+				data-anchor-target="#work + .gap"
+				data-bottom-top="transform: translate3d(0px, -60%, 0px);"
+				data-top-bottom="transform: translate3d(0px, 60%, 0px);"
+			></div>
+		</div>
+
+		<div id="skrollr-body">
+			<div class="content" id="header">
+				<h1>MARGARET</h1>
+				<h1>TU</h1>
+			</div>
+			<div class="gap gap-100" style="background-image:url(images/whole-body.jpg);"></div>
+			<div class="content" id="education">
+				<h2>EDUCATION</h2>
+				<p>
+					<b>College of Intellectual Property</b><br>
+					National Taiwan University of Science and Technology
+				</p>
+				<p>
+					<b>College of Law</b><br>
+					National Taiwan University
+				</p>
+			</div>
+			<div class="gap gap-100" style="background-image:url(images/agogo.jpg);"></div>
+			<div class="content" id="work">
+				<h2>WORK EXPERIENCE</h2>
+				<p>
+					<b>International Austronesian Conference</b><br>
+					Council of Indigenous Peoples
+				</p>
+				<p>
+					<b>Pacific Islands Leadership Program With Taiwan</b><br>
+					Institue of Diplomacy and International Affairs, Taiwan
+				</p>
+				<p>
+					<b>Research Assistant</b><br>
+					Academia Sinica, Institutum Iurisprudentiae
+				</p>
+				<p>
+					<b>Winter Intern</b><br>
+					Lee and Li, Attorneys-at-Law
+				</p>
+			</div>
+			<div class="gap gap-100" style="background-image:url(images/big-face.jpg);"></div>
+			<div class="content" id="more">
+				<h2>MORE ABOUT ME</h2>
+				<p>
+					<b>I love cute animals!</b><br>
+					I am keeping Agogo Lin, a Guinea Pig.<br>
+					He is a grumpy little thing.
+				</p>
+				<p>
+					<b>If you want to contact me</b><br>
+					Please send me <a href="javascript: void(0);">emails</a>
+				</p>
+			</div>
+		</div>
+
+		<script src="js/skrollr.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
